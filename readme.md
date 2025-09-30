@@ -44,46 +44,53 @@ crewai-multiagent-instagram-pipeline/
 
 <br/>
 
-## ⚙️ Setup
+## 🛠 Installation & Local Development
+### 1. Prerequisites
+```bash
+- Python 3.12.10
+- pip (Python package manager)
+```
+### 2. Clone the repository
 
-- 1. Clone the repo:
-     
 ```bash
 git clone https://github.com/debbrath/crewai-multiagent-instagram-pipeline.git
 cd crewai-multiagent-instagram-pipeline
+```
+### Step 3: Open VSCode
+- Launch VSCode.
+- Open your project folder
 
-- 2. Create and activate a virtual environment:
+### 4. Create and activate a virtual environment
+```bash
+# On Windows PowerShell
+python -m venv venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+venv\Scripts\activate
 
-  # On Windows PowerShell
-  python -m venv venv
-  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-  venv\Scripts\activate
-  
-  On Linux/Mac
-  python -m venv env
-  source env/bin/activate
-  
-  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-  cd F:\Python\Multi-Tool-Medical-AIAgent
-  .\.venv\Scripts\Activate.ps1
-  
-  python -m venv .venv
-  .\.venv\Scripts\Activate.ps1
-  pip install -r requirements.txt
+On Linux/Mac
+python -m venv env
+source env/bin/activate
 
--3. Install dependencies:
-  pip install -r requirements.txt
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+cd F:\Python\Multi-Tool-Medical-AIAgent
+.\.venv\Scripts\Activate.ps1
 
-- 4. Add a .env file:
-  OPENAI_API_KEY=your_openai_key
-  SERPAPI_API_KEY=your_serpapi_key
-  IMAGERY_API_KEY=your_segmind_or_nanobanana_key
-  OPENAI_MODEL=gpt-4o
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 
+### 5. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 6. Add a .env file:
 
-<br/>
+OPENAI_API_KEY=your_openai_key
+SERPAPI_API_KEY=your_serpapi_key
+IMAGERY_API_KEY=your_segmind_or_nanobanana_key
+OPENAI_MODEL=gpt-4o
+Run locally
 
-## ▶️ Run 
+### 6. Run 
 
 python main.py
 
@@ -104,6 +111,7 @@ Generate images
 
 Save outputs locally
 
+```
 ```
 ![Screenshot](https://github.com/debbrath/crewai-multiagent-instagram-pipeline/blob/main/image/1.png)
 ```
