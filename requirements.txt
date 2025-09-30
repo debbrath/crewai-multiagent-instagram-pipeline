@@ -1,0 +1,14 @@
+numpy==1.26.4
+crewai==0.28.8
+crewai_tools==0.1.6
+langchain_community==0.0.29
+langchain-openai
+transformers
+accelerate
+safetensors
+diffusers
+torch
+pillow
+gradio
+crewai==0.28.8 crewai-tools==0.1.6 langchain_community==0.0.29 langchain-openai
+python -m pip install "crewai[core]==0.28.8" crewai-tools==0.1.6 langchain_community==0.0.29 langchain-openai numpy==1.26.4 transformers accelerate safetensors diffusers gradio
