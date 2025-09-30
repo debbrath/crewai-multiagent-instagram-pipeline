@@ -3,14 +3,6 @@
 This project automates the end-to-end Instagram content pipeline using CrewAI multi-agent systems.
 It can research a topic, write content, review drafts, generate image prompts, and finally produce AI images (via Segmind, Stable Diffusion, or Nano Banana).
 
-This project uses **CrewAI Agents** with **OpenAI (via LangChain)** to:
-1. Research a topic
-2. Write a blog post
-3. Review the post
-4. Generate AI image prompts
-5. Create images with Stable Diffusion
-
-
 <br/>
 
 ## ✨ Features
