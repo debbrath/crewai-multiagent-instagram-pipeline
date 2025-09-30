@@ -10,7 +10,9 @@ This project uses **CrewAI Agents** with **OpenAI (via LangChain)** to:
 4. Generate AI image prompts
 5. Create images with Stable Diffusion
 
----
+
+```
+<br/>
 
 ## ✨ Features
 
@@ -27,6 +29,7 @@ This project uses **CrewAI Agents** with **OpenAI (via LangChain)** to:
 ---
 📂 Project Structure
 
+```
 crewai-multiagent-instagram-pipeline/
 │── .env                # API keys & secrets
 │── requirements.txt    # Python dependencies
@@ -36,7 +39,9 @@ crewai-multiagent-instagram-pipeline/
 │── image_gen.py        # Image generation integration
 │── README.md           # Documentation
 
----
+```
+```
+<br/>
 
 ## ⚙️ Setup
 
@@ -74,6 +79,9 @@ cd crewai-multiagent-instagram-pipeline
   IMAGERY_API_KEY=your_segmind_or_nanobanana_key
   OPENAI_MODEL=gpt-4o
 
+```
+<br/>
+
 ## ▶️ Run 
 
 python main.py
@@ -107,9 +115,12 @@ Save outputs locally
 ![Screenshot](https://github.com/debbrath/crewai-multiagent-instagram-pipeline/blob/main/image/3.png)
 ```
 
----
+```
+<br/>
 
-##  🛠️ Dependencies
+## 🛠 Technologies Used
+
+Python 3.12+
 
 CrewAI
 
@@ -118,6 +129,19 @@ LangChain
 Segmind / Stable Diffusion API
 
 SerpAPI
+
+<br/>
+
+---
+
+✍️ Author
+
+Debbrath Debnath
+
+📫 [Connect on LinkedIn](https://www.linkedin.com/in/debbrathdebnath/)
+
+🌐 [GitHub Profile](https://github.com/debbrath) 
+
 
 
 
