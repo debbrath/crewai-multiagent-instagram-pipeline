@@ -11,7 +11,6 @@ This project uses **CrewAI Agents** with **OpenAI (via LangChain)** to:
 5. Create images with Stable Diffusion
 
 
-```
 <br/>
 
 ## ✨ Features
@@ -26,7 +25,9 @@ This project uses **CrewAI Agents** with **OpenAI (via LangChain)** to:
 
 - 🖼️ Image Generator – creates final images via external APIs
 
----
+
+<br/>
+
 📂 Project Structure
 
 ```
@@ -40,7 +41,7 @@ crewai-multiagent-instagram-pipeline/
 │── README.md           # Documentation
 
 ```
-```
+
 <br/>
 
 ## ⚙️ Setup
@@ -79,7 +80,7 @@ cd crewai-multiagent-instagram-pipeline
   IMAGERY_API_KEY=your_segmind_or_nanobanana_key
   OPENAI_MODEL=gpt-4o
 
-```
+
 <br/>
 
 ## ▶️ Run 
